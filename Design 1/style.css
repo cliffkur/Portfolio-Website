@@ -1,8 +1,39 @@
-body{
-    height:100%;
-}
-
-.red-bg{
-    color: red;
+/* test font */
+.test-font{
+    color:red;
     font-family: 'Montserrat', sans-serif;
 }
+
+/* start of global css codes */
+
+.body-background{
+    background-color: #F8F8FF;
+}
+
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
+a {
+	text-decoration: none;
+	color: #08C;
+	transition: all 0.3s ease-out;
+	position: relative;
+	padding: .5em;
+	margin: -.5em;
+}
+
+a:hover { color: #0AF; }
+/* end of global css codes */
