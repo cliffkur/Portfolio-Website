@@ -245,9 +245,10 @@ h1, h2, h3, h4, h5,
         border-top-left-radius: 0px !important;
         border-top-right-radius: 0px !important; }
     .probootstrap-main .card-columns .card:hover, .probootstrap-main .card-columns .card:focus {
-      -webkit-transform: scale(0.96);
+        /* hovereffect */
+      /*-webkit-transform: scale(0.96);
       -ms-transform: scale(0.96);
-      transform: scale(0.96); }
+      transform: scale(0.96);*/ }
       .probootstrap-main .card-columns .card:hover a:before, .probootstrap-main .card-columns .card:focus a:before {
         top: 10px;
         left: 10px;
