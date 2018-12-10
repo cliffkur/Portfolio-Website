@@ -1,9 +1,9 @@
 <?php
-if(isset($_POST['email'])) {
+if(isset($_POST['submit'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
     $email_to = "kurniawancliff@gmail.com";
-    $email_subject = "email test";
+    $email_subject = "New Client from ".$email_from;
  
     function died($error) {
         // your error code can go here
@@ -82,7 +82,7 @@ $headers = 'From: '.$email_from."\r\n".
  
 <!-- include your own success html here -->
  
-Thank you for contacting me. I will be in touch with you very soon.
+Thank you for contacting me. I will be in touch with you very soon. click <a href="index.html">here</a> to go back to the main page.
  
 <?php
  
